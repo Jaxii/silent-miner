@@ -1,3 +1,6 @@
+### Note
+If this reprository is useful to you in in any shape or form please give it a star.
+
 ### Educational purposes only
 Don't use this project maliciously. 
 
