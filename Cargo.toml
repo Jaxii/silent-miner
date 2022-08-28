@@ -10,10 +10,12 @@ opt-level = "z"     # Optimize for size.
 lto = "fat"         # Enable Link Time Optimization
 codegen-units = 1   # Reduce number of codegen units to increase optimizations.
 panic = "abort"     # Abort on panic
-strip = "symbols"   # Strip symbols from binary
+strip = true   # Strip symbols from binary
 
 [dependencies]
 winreg = "0.10.1"
 uuid = { version = "1.1.2", features = ["v4"] }
 num_cpus = "1.13.1"
 memexec = "0.2.0"
+include-crypt = "0.1.1"
+obfstr = "0.4.1"
